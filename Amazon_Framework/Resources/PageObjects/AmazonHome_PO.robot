@@ -4,8 +4,10 @@ Library    SeleniumLibrary
 *** Keywords ***
 
 Open Homepage
-    go to   ${URL}
     maximize browser window
+    go to   ${URL}
+    log     user 2 testing
+
 
 Validate Homepage
     wait until page contains    Hello    timeout=3
