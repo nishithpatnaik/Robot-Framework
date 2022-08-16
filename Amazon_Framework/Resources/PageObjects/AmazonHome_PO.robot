@@ -6,7 +6,7 @@ Library    SeleniumLibrary
 Open Homepage
     maximize browser window
     go to   ${URL}
-    log     user 2 testing
+    log     user 1 acknowledges
 
 
 Validate Homepage
